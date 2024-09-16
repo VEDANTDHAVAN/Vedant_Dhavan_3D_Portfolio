@@ -9,14 +9,13 @@ const Education = () => {
     <div className="mt-12 flex">
      <VerticalTimeline>
       <VerticalTimelineElement className="flex-auto rounded-lg">
-        <section className="contain-style">
-       <h3 className="head-text text-amber-950">Oxford International School 
+        <section className="contain-style bg-indigo-950">
+       <h3 className="head-text text-gray-50">Oxford International School 
         <img className="w-60% h-60% justify-self-auto flex flex-auto" src="https://images.uniapply.com/uploads/college/image/500/4610/Oxford_International_School_3087_Building_1_3.jpg" />
         ICSE 
        </h3>
-       <h4 className="text-"></h4>
-       <h4 className="font-poppins"> March 2011 - May 2021</h4>
-       <h6 className="text-cyan-500 font-serif">I have done my Schooling from Oxford International School,ICSE located in Kandivali (E), Mumbai, India.<br />
+       <h4 className="font-poppins text-amber-200"> March 2011 - May 2021</h4>
+       <h6 className="text-lime-300 font-serif">I have done my Schooling from Oxford International School,ICSE located in Kandivali (E), Mumbai, India.<br />
          Passed the 10th Grade with a score of 95.5%<br />
          Then chose to continue in Science stream.</h6>
       </section>

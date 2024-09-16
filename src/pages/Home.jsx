@@ -87,5 +87,4 @@ const adjustIslandForScreenSize = () => {
     </section>
   )
 }
-
 export default Home
