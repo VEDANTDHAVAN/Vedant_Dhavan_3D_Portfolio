@@ -6,7 +6,7 @@ const Navbar = () => {
       <NavLink to="/" className="w-10 h-10 rounded-lg bg-yellow-50 items-center justify-center flex font-extrabold shadow-md">
       <p className="blue-gradient_text">VD</p>
       </NavLink>
-      <nav className="flex text-xl gap-8 font-semibold">
+      <nav className="flex rounded-xl bg-amber-100 shadow-lg p-2 px-4 text-3xl gap-8 font-semibold">
         <NavLink to="/about" className={({isActive}) => isActive ? 'text-blue-600': 'text-black'}>
          About
         </NavLink>
