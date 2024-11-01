@@ -63,7 +63,17 @@ const Contact = () => {
      
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch!</h1>
-      
+        <br />
+      <div>
+        <h3 className='subhead-text'>Personal Info</h3>
+      <h1 className='p-2 font-semibold'>Mobile No: 8850780964</h1>
+      <h1 className='p-2 font-semibold'>Email ID: vedantadhavan11@gmail.com</h1>
+      </div>
+      <div>
+        <button className='btn'><a href="https://www.linkedin.com/in/vedant-dhavan-5930ba2a3/">LinkedIn<img src="" alt="" /></a></button>
+        <button className='btn'><a href="https://www.instagram.com/dhavanvedant_2006/">Instagram</a></button>
+        <button className='btn'><a href="https://github.com/VEDANTDHAVAN">GitHub</a></button>
+      </div>
       <form className="w-full flex flex-col gap-6 mt-15" autoComplete="on" onSubmit={handleSubmit}>
         <label className="text-purple-950 font-semibold">
           Name 
@@ -90,7 +100,7 @@ const Contact = () => {
         </button>
       </form>
       </div>
-      <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
+      <div className="lg:w-1/2 lg:h-auto w-auto md:h-[550px] h-[350px] ">
        <Canvas camera={{
         position: [0, 0, 6],
         //field of View
