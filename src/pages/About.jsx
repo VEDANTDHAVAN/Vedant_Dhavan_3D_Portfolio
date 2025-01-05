@@ -84,6 +84,13 @@ const About = () => {
         </div>
       </div>
 
+      <div className='card'>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.KZEWCyZE4ar4xAG9ZFtxFwHaGj&pid=Api&P=0&h=180" alt="Canva" />
+        <div className='info'>
+          <a href="https://www.canva.com/free/" className='btn'>Read more</a>
+        </div>
+      </div>
+
       </div>
     </div>
     <div className="py-16">

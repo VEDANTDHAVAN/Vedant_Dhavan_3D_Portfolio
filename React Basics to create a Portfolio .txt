@@ -1,0 +1,20 @@
+React Basics to create a Portfolio Website:
+
+ 1)To implement Routing:
+ eg when u click on some tab, another page should open.
+so we need to have a comprehensive routing system within our react application.
+This can bedone by using React's most powerful routing library called react-router-dom
+
+ 2)Laying out the main file and folder Structure of app:
+* Create pages whose tabs are displayed on Homepage
+* Also create Components such as Nav bar to navigate across the pages
+* then import them on app.jsx
+
+ 3)Creating 3D Screen:
+ * use Canvas component
+ * install package -> npm install @react-three/fiber
+ * in Canvas , apply camera with near and far limits.
+ * use React's Suspense Component, by importing it from react
+ * install @react-three/drei 
+ * adding lightings: 1- directionalLight 2- ambientlight 3- pointLight 4- spotlight 5- hemisphereLight
+ * finding Quality 3D models
